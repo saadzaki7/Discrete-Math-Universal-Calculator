@@ -407,16 +407,15 @@ def remainder(big,small):
 #remainder(15,4)
 import time
 
-print('''
-  _      _                                  _            _                 __    _____      _            _       _             
- | |    (_)                           /\   | |          | |               /_ |  / ____|    | |          | |     | |            
- | |     _ _ __   ___  __ _ _ __     /  \  | | __ _  ___| |__  _ __ __ _   | | | |     __ _| | ___ _   _| | __ _| |_ ___  _ __ 
- | |    | | '_ \ / _ \/ _` | '__|   / /\ \ | |/ _` |/ _ \ '_ \| '__/ _` |  | | | |    / _` | |/ __| | | | |/ _` | __/ _ \| '__|
- | |____| | | | |  __/ (_| | |     / ____ \| | (_| |  __/ |_) | | | (_| |  | | | |___| (_| | | (__| |_| | | (_| | || (_) | |   
- |______|_|_| |_|\___|\__,_|_|    /_/    \_\_|\__, |\___|_.__/|_|  \__,_|  |_|  \_____\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|   
-                                               __/ |                                                                           
-                                              |___/                                                                            
-    ''')
+print('''  
+  _____  _                   _          _____      _            _       _             
+ |  __ \(_)                 | |        / ____|    | |          | |     | |            
+ | |  | |_ ___  ___ _ __ ___| |_ ___  | |     __ _| | ___ _   _| | __ _| |_ ___  _ __ 
+ | |  | | / __|/ __| '__/ _ \ __/ _ \ | |    / _` | |/ __| | | | |/ _` | __/ _ \| '__|
+ | |__| | \__ \ (__| | |  __/ ||  __/ | |___| (_| | | (__| |_| | | (_| | || (_) | |   
+ |_____/|_|___/\___|_|  \___|\__\___|  \_____\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|   
+                                                                                      
+                                                                                      ''')
 while (True):
     time.sleep(3)
     val=int(input('''Input 1 for gcd\nInput 2 for Extended Euclidean Table\nInput 3 for Prime Number Checker\nInput 4 for Linear Diophantine Equation Solver\nInput 5 for Prime Factor List\nInput 6 for Factor List\nInput 7 for Remainder Calculator\nInput 8 for Coprime Checker\nInput 9 for Modulus Calculator\nInput 10 to Quit\nInput:'''))
